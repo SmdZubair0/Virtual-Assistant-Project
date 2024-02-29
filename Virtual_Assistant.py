@@ -26,8 +26,8 @@ dic = json.load(open('resource.json'))
 mic = sr.Microphone()
 r = sr.Recognizer()
 
-instruction = "send hi to you"
-# instruction = lisen(mic,r)
+#instruction = "send hi to you"
+instruction = lisen(mic,r)
 # print(instruction)
 
 engine = pyttsx3.init()
